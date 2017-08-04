@@ -1,0 +1,38 @@
+{
+    "name": "diogenesdiniz/fixer-io-php-client",
+    "description": "A simple PHP Client for http://fixer.io/",
+    "type": "library",
+    "homepage": "https://github.com/diogenesdiniz/fixer-io-php-client",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Diógenes Diniz",
+            "email": "diogenesdini@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "php",
+        "fixerio",
+        "http",
+        "client"
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fixerio\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fixerio\\": "test/"
+        }
+    }
+}
